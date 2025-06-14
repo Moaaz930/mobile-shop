@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(83, 83, 83);
+}
+
+h1 {
+    color: aliceblue;
+    width: 100%;
+    padding: 30px 450px;
+    border-bottom: bold 1px black;
+}
+
+.big {
+    display: flex;
+}
+
+.lo {
+    height: 400px;
+    position: relative;
+}
+
+.lo img {
+    padding-left: 90px;
+    width: 350px;
+    height: 250px;
+
+}
+
+.lo a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.lo span {
+    font-size: 30px;
+    color: aliceblue;
+    position: absolute;
+    top: 250px;
+    left: 185px;
+}
+
+.lo button {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 300px;
+    left: 125px;
+}
+
+.mo img {
+    padding-left: 105px;
+    width: 350px;
+    height: 250px;
+}
+
+.mo span {
+    font-size: 30px;
+    color: aliceblue;
+    position: absolute;
+    top: 350px;
+    left: 550px;
+}
+
+.mo button {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 400px;
+    left: 485px;
+}
+
+.mo a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.no img {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding-left: 105px;
+    width: 370px;
+    height: 250px;
+}
+
+.no span {
+    font-size: 30px;
+    color: aliceblue;
+    position: absolute;
+    top: 350px;
+    left: 920px;
+}
+
+.no button {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 400px;
+    left: 840px;
+}
+
+.no a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.small {
+    display: flex;
+}
+
+.ho {
+    height: 400px;
+    position: relative;
+}
+
+.ho img {
+    padding-left: 90px;
+    width: 350px;
+    height: 250px;
+
+}
+
+.ho a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.ho span {
+    font-size: 30px;
+    color: aliceblue;
+    position: absolute;
+    top: 250px;
+    left: 185px;
+}
+
+.ho button {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 300px;
+    left: 125px;
+}
+
+.ko img {
+    padding-left: 105px;
+    width: 350px;
+    height: 250px;
+}
+
+.ko span {
+    font-size: 30px;
+    color: aliceblue;
+    position: absolute;
+    top: 750px;
+    left: 550px;
+}
+
+.ko button {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 800px;
+    left: 485px;
+}
+
+.ko a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.yo img {
+    padding-left: 105px;
+    width: 370px;
+    height: 250px;
+}
+
+.yo span {
+    font-size: 30px;
+    color: aliceblue;
+    position: absolute;
+    top: 750px;
+    left: 920px;
+}
+
+.yo button {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 800px;
+    left: 840px;
+}
+
+.yo a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.phone span {
+    color: aliceblue;
+    font-size: 30px;
+    padding-left: 90px;
+    padding-top: 20px;
+
+}
+
+.price span {
+    padding-left: 100px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 24px;
+    }
+
+    .big,
+    .small {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .big div,
+    .small div {
+        width: 90%;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .big img,
+    .small img {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .big span,
+    .small span,
+    .big button,
+    .small button {
+        position: static;
+        display: block;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .price span,
+    .phone span {
+        display: block;
+        padding: 10px 0;
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
